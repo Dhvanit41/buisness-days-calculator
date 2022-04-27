@@ -1,0 +1,35 @@
+{
+  "name": "buisness-days-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhvanit41/buisness-days-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhvanit41/buisness-days-calculator/issues"
+  },
+  "homepage": "https://github.com/Dhvanit41/buisness-days-calculator#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.0",
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.15"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint . --fix",
+      "git add ."
+    ]
+  }
+}
